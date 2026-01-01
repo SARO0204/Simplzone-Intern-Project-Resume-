@@ -1,0 +1,175 @@
+.A4 {  
+  width: 1100px;
+  height: 1650px;
+  background: white;
+  padding: 30px;
+  margin: 50px 0px 50px 170px;
+  box-shadow: 0 0 35px ;
+}
+ 
+ .header {
+  position: static;
+  font-size: 120%;
+  width: 550px;
+  margin-top: 60px;
+  margin-bottom: 25px;
+  margin-left: 350px;
+  margin-right: 350px;
+  transform: translateX(-18%);
+  background-color: #ffffff;
+  border: 2px solid #555;
+  padding: 24px 60px;
+  z-index: 10;   
+  border-radius: 50px 52px 52px 50px;
+}
+
+div.header p {
+margin-left: 32px;
+font-size: 20px;
+}
+
+div.header img {
+  position:absolute;
+  left: 470px;
+  top: 0.2px;
+  bottom: 50px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 25px;
+}
+
+.container:hover {
+  width: 370px;
+  padding-top: 10px;
+  background-color: #71b4ad;
+  margin-left: 10px;
+  border-radius: 50px;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.title {
+  letter-spacing: 2px;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+
+.right .line {
+  position: absolute;
+  width: 600px;
+  height: 3px;
+  background-color: #555;
+}
+
+.left .line {
+  position:absolute;
+  width: 380px; 
+  height: 3px;
+  background-color: #555;    
+}
+
+.fill {
+  height: 10px;
+  background-color: #555;
+  border-radius: 20px;
+  width: 0;  
+  animation: loadBar 2s ease forwards;
+  background: linear-gradient(#8e8e8e,#555);
+}
+
+.programming {
+  --target: 70%; animation-delay: 0.2s;
+}
+
+.frontend {
+  --target: 90%; animation-delay: 0.4s;
+}
+
+.backend {
+  --target: 40%; animation-delay: 0.6s;
+}
+
+.version {
+  --target: 60%; animation-delay: 0.8s;
+}
+
+.office {
+  --target: 95%; animation-delay: 1.0s;
+}
+
+.teamwork {
+  --target: 100%; animation-delay: 1.2s;
+}
+
+@keyframes loadBar {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--target);
+  }
+}
+
+.main {
+  width: 600px;
+}
+
+.main:hover {
+  width: 620px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #71b4ad;
+  border-radius: 50px;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+
+.content {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-top: 0px; 
+}
+
+.left {
+  background: #cfcbcb;
+  height: 1650px;
+}
+
+.right {
+  margin-top: 270px;
+  background: #ffffff;
+  padding: 30px;
+}
+
+.sign {
+  padding-top: 10px;
+}
+
+.pen {
+  margin-top: 5px;
+  margin-left: 18px;
+}
+
+a:hover {
+  background-color: rgb(213, 210, 43);
+  font-size: 17.6px;
+}
+
+body {
+  background-color: #b8dedf; 
+  transition: background-color 0.3s ease;
+}
+
+body.bg-black {
+  background-color: #2f3a3f; 
+}
