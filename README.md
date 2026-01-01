@@ -1,8 +1,8 @@
-#📄 Resume Website
+#Resume Website 📄
 
 A responsive resume website built using HTML, CSS, and JavaScript to present personal and professional details in an interactive way.
 
-#✨ Features
+#Features ✨
 
 🌗 Light / Dark Mode Toggle
 
@@ -10,7 +10,7 @@ A responsive resume website built using HTML, CSS, and JavaScript to present per
 
 🖱️ Hover effects on content sections and added a moving bar animation in skills section
 
-#🛠️ Tech Stack
+#Tech Stack 🛠️
 
 HTML
 
@@ -18,11 +18,11 @@ CSS
 
 JavaScript
 
-#🚀 Learning Outcome
+#Learning Outcome 🚀
 
 Improved skills in frontend design, CSS animations, hover effects, and basic JavaScript interactivity.
 
-#👨‍💻 Author
+#Author 👨‍💻
 
 Saravana Prabu S
 📧 prabusaravana20@gmail.com
